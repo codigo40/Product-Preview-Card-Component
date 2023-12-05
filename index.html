@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" />
 
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/main.css">
+
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
     <main class="main">
       <div class="main__card">
         <picture class="main__card-img">
-          <source media="(max-width:375px)" srcset="image-product-mobile.jpg" />
-          <img src="./images/image-product-desktop.jpg" alt="Parfum" />
+          <source  media="(max-width:375px)" srcset="image-product-mobile.jpg" />
+          <img class="main__card-img-desktop" src="./images/image-product-desktop.jpg" alt="Parfum" />
         </picture>
 
         <div class="main__card-info">
-          <h1>Perfume</h1>
-          <h2>Gabrielle Essence Eau De Parfum</h2>
-          <p>
+          <h1 class="main__card-info-title">Perfume</h1>
+          <h2 class="main__card-info-product" >Gabrielle Essence Eau De Parfum</h2>
+          <p class="main__card-info-paragraph">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
@@ -29,7 +37,11 @@
           </div>
 
           <div class="main__card-info-cart">
-            <button class="main__card-info-cart-button">Add to Cart</button>
+           
+            <button 
+            class="main__card-info-cart-button">
+            <img class="main__card-info-cart-icon" src="./images/icon-cart.svg" alt="icon-cart">
+            Add to Cart</button>
           </div>
         </div>
       </div>
