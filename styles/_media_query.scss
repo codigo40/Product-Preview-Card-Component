@@ -1,0 +1,54 @@
+@media (max-width:375px){
+.main {
+&__card{
+   flex-direction: column;
+}
+&__card-img{
+    width: 21.5rem;
+    
+}
+&__card-img-desktop{  
+height: 15.5rem;
+margin-left: 4px;
+object-fit: cover;
+border-radius: .5rem .5rem 0 0;
+}
+
+&__card-info{
+width: 21rem;
+border-radius: 0 0 .5rem .5rem;
+margin-top: -.5rem;
+padding: 1rem 1rem;
+}
+
+&__card-info-title{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+&__card-info-product{
+    margin-bottom: 1rem;
+}
+&__card-info-paragraph{
+    margin-bottom: 1.5rem;
+}
+&__card-info-price{
+    justify-content: center;
+    margin-left: -5rem;
+    margin-bottom: .9rem;
+
+    &--new{
+        margin-right: 1rem;
+    }
+}
+
+&__card-info-cart-button{
+    width: 18.5rem;
+    padding: .9rem;
+}
+
+}
+
+
+
+}

@@ -41,6 +41,7 @@
 }
 &__card-info-paragraph{
     font-family: $font-family-2;
+    color:$Dark-grayish-blue ;
     font-size: 0.9rem;
     line-height: 1.45rem;
     margin-bottom: 1.6rem;
@@ -68,7 +69,6 @@
     text-decoration: line-through;
     font-size: .8rem;
 }
-
 }
 &__card-info-cart-button{
     width: 14.9rem;
