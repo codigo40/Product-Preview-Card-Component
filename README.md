@@ -1,24 +1,19 @@
 # Frontend Mentor - Product Preview Card Component
 
-A simple perfume product card project built using HTML5, CSS3, and CSS Grid. This project focuses on creating a responsive product card showcasing a perfume item. By utilizing CSS Grid, you've achieved a layout that adapts seamlessly across various screen sizes.
+A simple perfume product card project built using HTML5, CSS3 and SASS. This project focuses on creating a responsive product card showcasing a perfume item. 
 
-![Perfume Product Card Project Preview](./public/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
+![Perfume Product Card Project Preview](./images/Product%20Preview%20Component.png)
 
 ## Features
 
-- Responsive design achieved through CSS Grid layout.
+- Responsive design achieved.
 - Displays product details in a visually appealing and organized format.
-- Offers insights into creating responsive layouts using CSS Grid.
 
 ## Technologies Used 🛠️
 
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> HTML5: Markup language for structuring the web page.
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> CSS3: Styling language for design and presentation.
-
-## Layout with CSS Grid
-
-- CSS Grid is used to create a responsive and visually appealing product card layout.
-- The layout adjusts automatically based on the available screen space.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> Sass: CSS extension language with additional features.
 
 ## Usage Instructions
 
@@ -41,5 +36,5 @@ Contributions are welcome! If you have ideas for improvements or want to contrib
 
 ## Author ✒️
 
-- **Carmenyo** - [Carmenyo](https://github.com/carmenyo)
+- **Código40** - [codigo40](https://github.com/codigo40)
 
