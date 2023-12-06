@@ -1,94 +1,90 @@
-body{
-    background-color:$Cream;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 .main{
     &__card{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 37.5rem;
-        height: 28.32rem;
-       
     }
-    &__card-img{
-        width: 19rem;
-        height: 28.5rem;
-        
-    }
-    &__card-img-desktop{
-        max-width: 100%;
-        border-radius: .5rem 0 0 .5rem; 
-    }
-    &__card-info{
-         width: 18.7rem;
-         height: 28.32rem;
-         background-color:$White;
-         padding: 1rem 2.1rem;
-         border-radius: 0 .5rem .5rem 0;
-    }
-    &__card-info-title{
-        font-family: $font-family-2;
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-size: .8rem;
-        margin-top: 1rem;
-        letter-spacing: 4px;
-        margin-bottom: 1.2rem;
-    }
-    &__card-info-product{
-        font-family: $font-family-1;
-        font-size: 2rem;
-        line-height: 2rem;
-        margin-bottom: 1.49rem;
-    }
-    &__card-info-paragraph{
-        font-family: $font-family-2;
-        font-size:$Font-size-paragraph;
-        color:$Dark-grayish-blue;
-        line-height: 1.45rem;
-        margin-bottom: 1.8rem;
-    }
-    &__card-info-price{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-bottom: 1.6rem;
-        &--new{
-            color: $Dark-cyan;
-            font-weight: bolder;
-            font-size: 1.8rem;
-            font-family: $font-family-1;
-            letter-spacing: 2px;
-            margin-left: -2rem;
-        }
-        &--old{
-            color:$Dark-grayish-blue ;
-            text-decoration: line-through;
-            font-family: $font-family-2;
-            font-size: .8rem;
-        }
-    }
+  &__card-img{
+    width: 20.5rem;
+
+  }
+
+  &__card-img-desktop{
+    max-width: 100%;
+    height:28rem ;
+    border-radius: .5rem 0 0 .5rem;
+  }
+
+  &__card-info{
+    width: 20rem;
+    background-color: $White;
+    padding: 1rem 2.1rem;
+    border-radius: 0 .5rem .5rem 0;
+  }
+&__card-info-title{
+     font-family: $font-family-2;
+     text-transform: uppercase;
+     font-weight: lighter;
+     color:$Dark-grayish-blue;
+     font-size: .8rem;
+     margin-top: 1.1rem;
+     letter-spacing: 4px;
+     margin-bottom: 1.2rem;
+}
+
+&__card-info-product{
+     font-family: $font-family-1;
+     font-size: 2rem;
+     line-height: 2rem;
+     margin-bottom: 1.6rem;
+}
+&__card-info-paragraph{
+    font-family: $font-family-2;
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+    margin-bottom: 1.6rem;
+}
+
+&__card-info-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.8rem;
+   
+
+&--new{
+  color:$Dark-cyan;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  font-family: $font-family-1;
+  letter-spacing: 2px;
+  margin-left: -2rem;
+
+}
+&--old{
+    color: $Dark-grayish-blue;
+    font-family: $font-family-2;
+    text-decoration: line-through;
+    font-size: .8rem;
+}
+
+}
 &__card-info-cart-button{
     width: 14.9rem;
     background-color: $Dark-cyan;
-    color: $White ;
-    font-size: .87rem;
+    color:$White ;
+    font-size: .9rem;
     font-family: $font-family-2;
-    padding: .95rem;
+    padding: .8rem;
     border-radius: .5rem;
     border: none;
+    margin-bottom: .95rem;
     cursor: pointer;
 }
+
 &__card-info-cart-button:hover{
-    background-color: rgb(7, 57, 7) ;
+    background-color: rgb(4, 48, 4);
 }
-&__card-info-cart-icon{
-    margin-right: .5rem;
-}
+
 }
