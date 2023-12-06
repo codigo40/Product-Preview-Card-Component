@@ -86,7 +86,34 @@ body {
   padding: 0.95rem;
   border-radius: 0.5rem;
   border: none;
+  cursor: pointer;
+}
+.main__card-info-cart-button:hover {
+  background-color: rgb(7, 57, 7);
 }
 .main__card-info-cart-icon {
   margin-right: 0.5rem;
+}
+
+@media (max-width: 375px) {
+  .main__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__card-img {
+    border: red solid 2px;
+    width: 21.5rem;
+    height: 17rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main__card-img-desktop {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .main__card-info {
+    width: 21.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 0.4rem;
+  }
 }/*# sourceMappingURL=main.css.map */

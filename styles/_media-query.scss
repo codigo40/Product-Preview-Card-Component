@@ -1,0 +1,27 @@
+@media (max-width: 375px) {
+  .main {
+    &__card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__card-img {
+        border: red solid 2px;
+      width: 21.5rem;
+      height: 17rem;
+      object-fit: cover;
+    }
+
+    &__card-img-desktop {
+      width: 100%;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+    &__card-info {
+       
+      
+      width: 21.5rem;
+      border-radius: 0 0 .5rem .5rem;
+      padding: .4rem;
+    }
+  }
+}

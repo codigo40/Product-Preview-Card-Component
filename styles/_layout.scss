@@ -83,9 +83,12 @@ body{
     padding: .95rem;
     border-radius: .5rem;
     border: none;
+    cursor: pointer;
+}
+&__card-info-cart-button:hover{
+    background-color: rgb(7, 57, 7) ;
 }
 &__card-info-cart-icon{
     margin-right: .5rem;
 }
-
 }
